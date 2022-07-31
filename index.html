@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>final project</title>
+   
+</head>
+<body>
+ <header>
+    <div class="logo"> <img src="./images/logo1.png" alt=""></div>
+ </header>
+ <main>
+    <div id="loader"></div>
+    <input type="search" name="search" id="search">
+
+    <nav id="navigation">
+        <h2 class="list">Shipment List</h2>
+        <ul>
+            <li onclick="displayData('Amazon.com')">Amazon</li>
+            <li onclick="displayData('American Express')" >American Express</li>
+            <li onclick="displayData('Walmart')">Walmart</li>
+            <li onclick="displayData('Apple')">Apple</li>
+        </ul>
+    </nav>
+    <div id="mainInfo">
+        <h2 id="companyInfo"> Choose Company</h2>
+        <h4 id="companyContact">spasex@gmail.com</h4>
+        <p>cargo boxes</p>
+         <input id="boxes" type="text">
+
+         <h3>Number of required cargo bays</h3>
+        <h2 id="CountBoxes">0</h2>
+    </div>
+ </main>
+ <footer></footer>
+
+ <script  src="./index.js" ></script>
+</body>
+</html>
